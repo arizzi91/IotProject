@@ -1,0 +1,7 @@
+#Fri May 05 16:36:51 CEST 2017
+base.0=/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9a2546db25182137f568fe859048e911a522edd3
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_22439321ec587dca579fadfdbf9babb2e8d25c3e/classes.dex
+base.1=/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_22439321ec587dca579fadfdbf9babb2e8d25c3e
+file.0=/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9a2546db25182137f568fe859048e911a522edd3/classes.dex

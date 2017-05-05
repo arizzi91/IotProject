@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/angelo/.android/build-cache/3e8cb3c75be0ddf26bcc721081a9abb4eb79715b/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/angelo/.android/build-cache/3e8cb3c75be0ddf26bcc721081a9abb4eb79715b/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]
