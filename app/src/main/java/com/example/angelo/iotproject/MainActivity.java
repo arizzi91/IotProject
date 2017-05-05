@@ -11,7 +11,8 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     EditText client,server,porta;
-    String clientName, serverName, portName;
+    String clientName, serverName;
+    int portaName;
     Button conn;
 
     @Override
@@ -24,16 +25,17 @@ public class MainActivity extends AppCompatActivity {
         porta=(EditText)findViewById(R.id.port);
         conn=(Button)findViewById(R.id.newConnection);
 
-        clientName=client.getText().toString();
-        serverName=server.getText().toString();
-        portName=porta.getText().toString();
+
 
         conn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(parserValori(clientName,serverName,portName)){
-                    Toast.makeText(getApplicationContext(),"ok",Toast.LENGTH_LONG).show();
-                }
+                if(parserValori(client.getText().toString(),server.getText().toString(),porta.getText().toString())){
+                    clientName=client.getText().toString();
+                    serverName=server.getText().toString();
+                    portaName=Integer.parseInt(porta.getText().toString());
+
+                }else Toast.makeText(getApplicationContext(), "inserire campi mancanti",Toast.LENGTH_LONG).show();
             }
         });
 
@@ -43,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private boolean parserValori(String client, String server, String porta) {
         boolean ok=false;
-        if(client=="" || server==""  || porta==""){
+        if(client.equals("") || server.equals("")  || porta.equals("")){
 
         }else ok=true;
         return ok;
