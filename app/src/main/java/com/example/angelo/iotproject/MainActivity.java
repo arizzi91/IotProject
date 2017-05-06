@@ -1,11 +1,16 @@
 package com.example.angelo.iotproject;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import org.eclipse.paho.android.service.MqttAndroidClient;
+import org.eclipse.paho.client.mqttv3.MqttException;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -34,6 +39,21 @@ public class MainActivity extends AppCompatActivity {
                     clientName=client.getText().toString();
                     serverName=server.getText().toString();
                     portaName=Integer.parseInt(porta.getText().toString());
+                    serverName="tcp://"+serverName+":"+portaName;
+
+
+                    MqttAndroidClient clientAndroid=SingletonConnection.getInstance(getApplicationContext()).createClient(getApplicationContext(),serverName,clientName);
+                    try {
+                        clientAndroid.connect();
+
+                        Log.d("ESEGUI","ok");
+                        if(clientAndroid.isConnected()){
+                            Log.d("CONNESSIONE","sei connesso");
+
+                        }
+                    } catch (MqttException e) {
+                        e.printStackTrace();
+                    }
 
                 }else Toast.makeText(getApplicationContext(), "inserire campi mancanti",Toast.LENGTH_LONG).show();
             }
