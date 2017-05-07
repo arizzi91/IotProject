@@ -67,8 +67,10 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public void messageArrived(String topic, MqttMessage message) throws Exception {
                             Log.d("messaggio", new String(message.getPayload()));
-                            //Bitmap bitmap=DecodeImage.decode(message);
-                            //mageView.setImageBitmap(bitmap);
+                            Toast.makeText(getApplicationContext(),"messaggio ricevuto", Toast.LENGTH_LONG).show();
+                            Bitmap bitmap=DecodeImage.decode(message);
+                            imageView.setImageBitmap(bitmap);
+
                         }
 
                         @Override
@@ -78,7 +80,6 @@ public class MainActivity extends AppCompatActivity {
                     });
                     MqttConnectOptions mqttConnectOptions= new MqttConnectOptions();
                     mqttConnectOptions.setCleanSession(false);
-
 
                     try {
 
@@ -104,9 +105,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
-
     }
 
     private void sottoscriviTopic(String topic) {
@@ -115,6 +113,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onSuccess(IMqttToken asyncActionToken) {
                     Log.d("SOTTOSCRITTO", "ok");
+                    Toast.makeText(getApplicationContext(),"sottoscritto", Toast.LENGTH_LONG).show();
                 }
 
                 @Override
@@ -131,7 +130,6 @@ public class MainActivity extends AppCompatActivity {
     private boolean parserValori(String client, String server, String porta, String topic) {
         boolean ok=false;
         if(client.equals("") || server.equals("")  || porta.equals("") || topic.equals("")){
-
         }else ok=true;
         return ok;
     }

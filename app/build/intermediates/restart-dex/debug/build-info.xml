@@ -1,36 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86_64,x86"
-    api-level="25"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
     build-mode="COLD"
     density="xxhdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1494105959328"
+    timestamp="1494164894943"
     token="3253993179456632432"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="94" />
+        duration="101" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="51" />
+        duration="21" />
     <task
         name="verifier"
-        duration="34" />
+        duration="1" />
 
     <artifact
         location="/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
+    <artifact
+        location="/home/angelo/AndroidStudioProjects/IoTProject/app/build/outputs/apk/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1494104968059"
+        timestamp="1494164604853"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/angelo/AndroidStudioProjects/IoTProject/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
@@ -47,9 +56,6 @@
             location="/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
@@ -64,17 +70,17 @@
         <artifact
             location="/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
-        <artifact
-            location="/home/angelo/AndroidStudioProjects/IoTProject/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1494105959328"
+        timestamp="1494164894943"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
+        <artifact
+            location="/home/angelo/AndroidStudioProjects/IoTProject/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

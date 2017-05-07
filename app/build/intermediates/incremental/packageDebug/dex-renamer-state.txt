@@ -1,4 +1,4 @@
-#Sat May 06 23:02:44 CEST 2017
+#Sun May 07 15:43:25 CEST 2017
 base.0=/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9a2546db25182137f568fe859048e911a522edd3
 renamed.1=classes2.dex
 renamed.0=classes.dex
