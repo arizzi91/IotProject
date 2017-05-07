@@ -78,8 +78,10 @@ public class MainActivity extends AppCompatActivity {
 
                         }
                     });
+
                     MqttConnectOptions mqttConnectOptions= new MqttConnectOptions();
                     mqttConnectOptions.setCleanSession(false);
+                    mqttConnectOptions.setKeepAliveInterval(0);
 
                     try {
 
