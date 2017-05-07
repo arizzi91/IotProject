@@ -17,7 +17,7 @@ public class DecodeImage {
 
 
     public static Bitmap decode(MqttMessage message){
-        Bitmap image=null;
+        Bitmap image;
         byte[] bitimage= Base64.decode(message.getPayload(), Base64.DEFAULT);
         InputStream stream = new ByteArrayInputStream(bitimage);
         image = BitmapFactory.decodeStream(stream);

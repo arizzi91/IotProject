@@ -6,6 +6,7 @@
     <string name="clientID">Client ID</string>
     <string name="serverURIHint">example.example.com</string>
     <string name="portHint">1883</string>
+    <string name="sub">Topic</string>
 
 
 </resources>

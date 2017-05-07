@@ -4,16 +4,16 @@
         "source": "/home/angelo/.android/build-cache/3e8cb3c75be0ddf26bcc721081a9abb4eb79715b/output/res/drawable/abc_btn_check_material.xml"
     },
     {
-        "merged": "/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/home/angelo/.android/build-cache/3e8cb3c75be0ddf26bcc721081a9abb4eb79715b/output/res/drawable/abc_ratingbar_material.xml"
+        "merged": "/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/home/angelo/.android/build-cache/3e8cb3c75be0ddf26bcc721081a9abb4eb79715b/output/res/drawable/abc_btn_radio_material.xml"
     },
     {
         "merged": "/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
         "source": "/home/angelo/.android/build-cache/3e8cb3c75be0ddf26bcc721081a9abb4eb79715b/output/res/drawable/abc_ic_clear_material.xml"
     },
     {
-        "merged": "/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/home/angelo/.android/build-cache/3e8cb3c75be0ddf26bcc721081a9abb4eb79715b/output/res/drawable/abc_btn_radio_material.xml"
+        "merged": "/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/home/angelo/.android/build-cache/3e8cb3c75be0ddf26bcc721081a9abb4eb79715b/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
         "merged": "/home/angelo/AndroidStudioProjects/IoTProject/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",

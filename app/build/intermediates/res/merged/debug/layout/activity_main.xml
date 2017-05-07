@@ -71,15 +71,37 @@
             android:inputType="number"
             android:hint="@string/portHint"/>
     </LinearLayout>
+    <LinearLayout
+        android:id="@+id/subGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/portGroup" >
+
+        <TextView
+            android:id="@+id/subTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="35dip"
+            android:text="@string/sub" />
+
+        <EditText
+            android:id="@+id/sub"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.22"
+            android:ems="10"
+            android:inputType="text" />
+    </LinearLayout>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/newConnection"
-        android:text="CONNETTI"
-        android:layout_below="@+id/portGroup"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp" />
+        android:text="CONNETTI E SOTTOSCRIVI TOPIC"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/subGroup"
+        android:layout_centerHorizontal="true" />
 
 
 
